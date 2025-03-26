@@ -2,3 +2,4 @@ startwith.py
 *.rar
 *.zip
 *.key
+.idea/
