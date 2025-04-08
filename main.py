@@ -1,7 +1,7 @@
 import questionary, csv
 from rich.console import Console
 from rich.table import Table
-from os import system
+from os import system, name
 from time import sleep
 from subprocess import run
 from pathlib import Path
@@ -32,7 +32,10 @@ def baixar_torrent(magnet_link,game):
 
 # Limpa o Shell
 def clear_cmd():
-    system("cls")
+    if name == "nt":
+        system("cls")
+    else: 
+        system("clear")
 
 # Retorna uma lista com cada atributo da tabela games.csv
 def lista_jogos():
