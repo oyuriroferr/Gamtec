@@ -26,13 +26,13 @@ O aplicativo foi pensado para ser simples e direto ao ponto, permitindo que os u
 1. Clone ou baixe este repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/gamtec.git
+git clone https://github.com/oyuriroferr/Gamtec.git
 ```
 
 2. Acesse a pasta do projeto:
 
 ```bash
-cd gamtec 
+cd Gamtec 
 ```
 
 3. Crie e ative um ambiente virtual:
